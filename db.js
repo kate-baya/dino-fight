@@ -3,10 +3,16 @@ const config = require('./knexfile').development
 const database = knex(config)
 
 function listDinos(db = database){
-    return db('land_dinos').select("name")
+    return db('land_dinos').select("name", "id")
 }
 
 function getDino(id, db = database) {
+    return db('land_dinos')
+    .where("id", id)
+    .first()
+}
+
+function getRandomDino(id, db = database) {
     return db('land_dinos')
     .where("id", id)
     .first()

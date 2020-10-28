@@ -40,7 +40,7 @@ router.get('/fight/:id', (req, res) => {
 
 router.post('/fight/:id', (req, res) => {
     id = req.params.id
-    currentOpponent.health -= 40
+    currentOpponent.health -= 
     res.redirect('/fight/' + id)
 })
 
