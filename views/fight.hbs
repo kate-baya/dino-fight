@@ -2,24 +2,24 @@
 
 <div class="selectedChar">
     <h2>You chose:</h2>
-    <h2>{{name}}</h2>
+    <h2>{{dino.name}}</h2>
         <div class="stats">
-            <p>Health: {{health}}</p>
-            <p>Stam: {{stamina}}</p>
-            <p>Speed: {{movement_speed}}</p>
+            <p>Health: {{dino.health}}</p>
+            <p>Stam: {{dino.stamina}}</p>
+            <p>Speed: {{dino.movement_speed}}</p>
             <br>
-            <p><form class="form" action="/fight/{{id}}" method="post"><button><a href="/fight/{{id}}">BASIC ATTACK</a></button> - {{melee_damage}}</p></form>
+            <p><form class="form" action="/fight/{{dino.id}}" method="post"><button>BASIC ATTACK</button> - {{dino.melee_damage}}</p></form>
         </div>
 </div>
 <br>
 <br>
 <div class="computer char">
     <h2>Your opponent:</h2>
-    <h2>{{name}}</h2>
+    <h2>{{opponent.name}}</h2>
         <div class="stats">
-            <p>Health: {{health}}</p>
-            <p>Stam: {{stamina}}</p>
-            <p>Speed: {{movement_speed}}</p>
+            <p>Health: {{opponent.health}}</p>
+            <p>Stam: {{opponent.stamina}}</p>
+            <p>Speed: {{opponent.movement_speed}}</p>
             <br>
         </div>
 </div>
