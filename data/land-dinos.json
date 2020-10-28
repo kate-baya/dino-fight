@@ -1,0 +1,36 @@
+[
+    {
+    "id": "1",
+    "name": "rex",
+    "health": "1,100",
+    "stamina": "420",
+    "oxygen": "150",
+    "melee damage": "62",
+    "movement speed": "736.5",
+    "swimming speed": "300",
+    "flying speed": "0",
+    "image": "none"
+    }, {
+    "id": "2",   
+    "name": "spinosaurus",
+    "health": "700",
+    "stamina": "350",
+    "oxygen": "650",
+    "melee damage": "40",
+    "movement speed": "1717.5",
+    "swimming speed": "1100",
+    "flying speed": "0",
+    "image": "none"
+    }, {
+    "id": "3",    
+    "name": "direwolf",
+    "health": "330",
+    "stamina": "260",
+    "oxygen": "150",
+    "melee damage": "40",
+    "movement speed": "1048.8",
+    "swimming speed": "300",
+    "flying speed": "0",
+    "image": "none"
+    }
+]

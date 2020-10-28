@@ -1,0 +1,26 @@
+[
+    {   "id": "1",
+        "name": "pteranodon",
+        "health": "210",
+        "stamina": "150",
+        "oxygen": "150",
+        "melee-damage": "19",
+        "movement speed": "260",
+        "swimming speed": "0",
+        "flying speed": "1650",
+        "image": "images/pterandodon.png"
+    },
+    {
+        "id": "2",
+        "name": "argentavis",
+        "health": "365",
+        "stamina": "400",
+        "oxygen": "150",
+        "melee damage": "25",
+        "movement speed": "260",
+        "swimming speed": "0",
+        "flying speed": "727.5",
+        "image": "images/argentavis.jpg"
+    }
+
+]
