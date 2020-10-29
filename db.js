@@ -12,22 +12,18 @@ function getDino(id, db = database) {
     .first()
 }
 
-function getRandomDino(id, db = database) {
-    return db('land_dinos')
-    .where("id", id)
-    .first()
+const opponentAttack = function() {
+    return currentUser.health = currentUser.health - currentOpponent.melee_damage
 }
 
-// function attackDino(id, db = database) {
-//     return db('land_dinos')
-//     .where("id", id)
-//     .select("melee_damage", "health")
-//     if ()
-//     .update("health")
-// }
-
+function getRandomDino(db = database) {
+    let randomDinoId = Math.floor(Math.random() * 3) + 1
+    return getDino(randomDinoId)
+}
 
 module.exports = {
     listDinos: listDinos,
-    getDino:getDino
+    getDino:getDino,
+    getRandomDino: getRandomDino,
+    opponentAttack: opponentAttack
 }
